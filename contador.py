@@ -9,3 +9,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         valor = int(sys.argv[1])
         print(siguiente(valor))
+# Log: añadido comentario 1
