@@ -1,0 +1,9 @@
+Comando de prueba:
+python3 contador.py 5
+
+Resultado actual (HEAD):
+7
+
+Explicación:
+Un commit es "good" si el resultado de ejecutar `python3 contador.py 5` es `6`, ya que esto significa que la función suma 1 (5 + 1 = 6), que es el comportamiento correcto.
+Un commit es "bad" si el resultado es distinto de 6 (por ejemplo `7`), lo que indica que el bug que suma 2 está presente en esa versión del código.

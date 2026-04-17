@@ -1,0 +1,19 @@
+ejecutando './test_contador.sh'
+Biseccionando: faltan 0 revisiones por probar después de esta (aproximadamente 0 pasos)
+[cc2003626a23c3414def04b8fc99bc63dfde136e] Introduce bug en siguiente (suma 2)
+ejecutando './test_contador.sh'
+cc2003626a23c3414def04b8fc99bc63dfde136e is the first bad commit
+commit cc2003626a23c3414def04b8fc99bc63dfde136e
+Author: Miguel Hernandez <megadede2007@gmail.com>
+Date:   Fri Apr 17 09:46:13 2026 +0200
+
+    Introduce bug en siguiente (suma 2)
+
+ contador.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bisect encontró el primer mal commit
+
+--- Contenido de test_contador.sh ---
+
+#!/bin/bash
+python3 contador.py 5 | grep -qx "6"

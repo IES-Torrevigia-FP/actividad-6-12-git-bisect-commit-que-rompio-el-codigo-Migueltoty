@@ -1,0 +1,13 @@
+Commit marcado como good inicialmente:
+cd5c3f5 Versión inicial correcta de contador
+
+Commit marcado como bad inicialmente:
+401d275 Añade comentario 3
+
+Commit identificado como "first bad commit":
+cc2003626a23c3414def04b8fc99bc63dfde136e is the first bad commit
+commit cc2003626a23c3414def04b8fc99bc63dfde136e
+Author: Miguel Hernandez <megadede2007@gmail.com>
+Date:   Fri Apr 17 09:46:13 2026 +0200
+
+    Introduce bug en siguiente (suma 2)
